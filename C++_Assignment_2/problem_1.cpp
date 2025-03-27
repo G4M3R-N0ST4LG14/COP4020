@@ -1,10 +1,10 @@
 // Arturo Lara
-// Problem 1
 
 #include <iostream>
 #include <fstream>
 
 int main() {
+    // Creates a text file to upload the output
     std::ofstream outFile("NOTES.TXT"); 
     
     // If it can't make the file there will be an error message
