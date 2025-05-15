@@ -36,11 +36,11 @@ problem3 n = [x | x <- [2..n], isMultipleOfFive x || hasExactlyThreeFactors x] -
 
 main :: IO ()
 main = do
-    putStrLn"1. Looking for every other prime number until reaching 10 and 7 total numbers: "
+    putStrLn "1. Looking for every other prime number until reaching 10 and 7 total numbers: "
     print(problem1 10)
     print(problem1 7)
-    putStrLn"2. Filtering out the Fibonacci numbers that end with the digit 3 up to 100 and 10000: "
+    putStrLn "2. Filtering out the Fibonacci numbers that end with the digit 3 up to 100 and 10000: "
     print(problem2 100)
     print(problem2 10000)
-    putStrLn"3. Generate a list of the multiples of 5 and numbers with exactly 3 factors: "
+    putStrLn "3. Generate a list of the multiples of 5 and numbers with exactly 3 factors: "
     print(problem3 100)
