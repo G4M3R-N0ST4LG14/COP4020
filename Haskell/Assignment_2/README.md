@@ -13,7 +13,6 @@ For this assignment, you will submit a single .hs file to the webcourse. You are
 2. Create a function named problem2. Use recursion to solve this problem. This function will take a single integer parameter. It indicates the maximum value of Fibonacci numbers that will be in the list. The final solution will be a list of Fibonacci numbers that have a three as their right-most digit and are less than or equal to n. (For this problem, Fibonacci starts 1,1,2,…)
 
     >problem2 100 --> [3,13]
-    
     >problem2 10000 --> [3,13,233]
 
 3. Create a function named problem3. For this problem, you can solve it any way you’d like. You may (and should) use helper functions. Create a list from numbers from 1 to n. The numbers must be either a multiple of five or have exactly three factors.
