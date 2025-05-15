@@ -6,13 +6,13 @@ Count from 1 to n. Each number that is even and a multiple of 5 and has a leadin
 solveProblem1 n. Solve with list comprehension. (Helper functions can be recursive or list comprehensions).
 
 >solveProblem1 10
-    >[]
+> -[]
 >solveProblem1 100
-    >[60]
+> -[60]
 >solveProblem1 1000
-    >[60,600,610,620,630,640,650,660,670,680,690]
+> -[60,600,610,620,630,640,650,660,670,680,690]
 
-Now solve for n=10000 amd n=100000
+Solve for n=10000 amd n=100000
 
 2. test problem two, 33 points -------------------------------------------------------
 
